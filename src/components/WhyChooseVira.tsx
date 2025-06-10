@@ -1,5 +1,5 @@
 
-import { Check, Users, Circle-check, Book-open } from "lucide-react";
+import { Check, Users, CheckCircle, BookOpen } from "lucide-react";
 
 export const WhyChooseVira = () => {
   const benefits = [
@@ -9,7 +9,7 @@ export const WhyChooseVira = () => {
       description: "Mais de 10 anos de atuação nas áreas financeira, fiscal, comercial e de vendas em grandes empresas."
     },
     {
-      icon: Circle-check,
+      icon: CheckCircle,
       title: "Visão 360°",
       description: "Compreendemos tanto o lado administrativo quanto o contábil e comercial da gestão empresarial."
     },
@@ -19,7 +19,7 @@ export const WhyChooseVira = () => {
       description: "Nossas estratégias são alinhadas às necessidades específicas do seu negócio para resultados eficientes."
     },
     {
-      icon: Book-open,
+      icon: BookOpen,
       title: "Foco em Resultados",
       description: "Nosso objetivo é impulsionar seu crescimento, reduzir custos, aumentar a rentabilidade e fortalecer sua estrutura financeira."
     }

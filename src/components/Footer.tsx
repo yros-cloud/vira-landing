@@ -1,5 +1,5 @@
 
-import { Instagram, Phone, Message-square } from "lucide-react";
+import { Instagram, Phone, MessageSquare } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -31,7 +31,7 @@ export const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <p className="text-sm text-gray-400">Especialista em Finanças e Gestão</p>
               <div className="flex items-center space-x-2">
-                <Message-square className="h-4 w-4" />
+                <MessageSquare className="h-4 w-4" />
                 <span className="text-sm">livia.maria@virainteligencia.com</span>
               </div>
               <div className="flex items-center space-x-2">
@@ -46,7 +46,7 @@ export const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <p className="text-sm text-gray-400">Especialista em Vendas e Gestão Comercial</p>
               <div className="flex items-center space-x-2">
-                <Message-square className="h-4 w-4" />
+                <MessageSquare className="h-4 w-4" />
                 <span className="text-sm">suellen.vilela@virainteligencia.com</span>
               </div>
               <div className="flex items-center space-x-2">
