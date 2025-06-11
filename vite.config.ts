@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: './dist', // ← ESSA LINHA AQUI É IMPORTANTE PARA FUNCIONAR EM HOSTGATOR OU FTP PURO
   server: {
     host: "::",
     port: 8080,
