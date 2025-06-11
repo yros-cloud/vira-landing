@@ -5,11 +5,13 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: mode === 'development' ? '/' : '/vira-landing/',
   server: {
     host: "::",
     port: 8080,
   },
   build: {
+    outDir: "docs",
     rollupOptions: {
       output: {
         // Put all JS and CSS in the same directory
